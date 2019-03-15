@@ -1,6 +1,0 @@
-package com.example.sas4;
-
-import android.content.BroadcastReceiver;
-
-public abstract class ReadSMS extends BroadcastReceiver {
-}
