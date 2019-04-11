@@ -4,26 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/setAlarm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="424dp"
+        android:layout_width="1in"
+        android:layout_height="0.2in"
+        android:layout_marginBottom="388dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="monospace"
         android:text="Set Alarm"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/exit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="67dp"
+        android:layout_width="1in"
+        android:layout_height="0.2in"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="244dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="monospace"
         android:text="Exit"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="@+id/setAlarm"
         app:layout_constraintTop_toBottomOf="@+id/setAlarm" />
 
@@ -33,10 +40,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="113dp"
         android:layout_marginBottom="117dp"
+        android:fontFamily="serif-monospace"
         android:text="Welcome to Smart Alarm Service"
         android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:textStyle="bold|italic"
+        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="@+id/setAlarm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
